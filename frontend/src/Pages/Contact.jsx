@@ -10,7 +10,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevents the form from reloading the page on submit
     
-    axios.post('http://localhost:3001/register/', { name, email, subject, message })
+    axios.post('https://portfolio-using-mern-stack-backend.onrender.com/register/', { name, email, subject, message })
       .then(result => console.log(result))
       .catch(err => console.log(err));
   }
