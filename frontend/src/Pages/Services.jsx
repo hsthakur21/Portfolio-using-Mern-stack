@@ -6,7 +6,7 @@ const Services = () => {
     <section className="w-full max-w-4xl mx-auto mt-8 bg-white p-4 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-4">Projects</h2>
         <div className="space-y-4">
-          <div className="bg-gray-200 p-4 rounded-lg">
+          <div className=" bg-slate-200 p-4 rounded-lg">
             <h3 className="text-xl font-semibold">
               Signup Login web page using Mern stack
             </h3>

@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center pt-6 md:pt-8">
-      <div className="w-full max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md mt-6" style={{ paddingTop: '25px' }}>
+      <div className="w-full max-w-3xl mx-auto  bg-slate-200 p-6 rounded-lg shadow-md mt-6" style={{ paddingTop: '25px' }}>
         <h2 className="text-3xl font-bold text-center mb-6">Contact Me</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>

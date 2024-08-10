@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-4xl bg-white p-8 rounded-lg shadow-md">
+      <div className="w-full max-w-4xl  bg-slate-200 p-8 rounded-lg shadow-md">
         <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
         <div className="flex flex-wrap justify-center">
           <span className="bg-blue-500 text-white px-4 py-2 rounded-full m-2">Java</span>

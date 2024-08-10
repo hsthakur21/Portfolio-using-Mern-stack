@@ -7,6 +7,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const port = process.env.PORT || 3001
+
 // Connect to MongoDB
 mongoose.connect('mongodb://127.0.0.1:27017/portfolio', {
   useNewUrlParser: true,
@@ -41,6 +43,6 @@ app.post('/register', (req, res) => {
 });
 
 // Start the server
-app.listen(3001, () => {
+app.listen(port, () => {
   console.log("Server is running on port 3001");
 });

@@ -45,7 +45,7 @@ const Footer = () => {
             className="hover:text-gray-400" 
             aria-label="Phone"
           >
-            <FaPhone size={24} /> <p>9548868770</p>
+            <FaPhone size={24} /> 
           </a>
         </div>
         <p className="text-sm">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>

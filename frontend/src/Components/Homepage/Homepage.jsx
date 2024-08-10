@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
    <>
    <div>
-   <div className="bg-gray-100 min-h-screen flex flex-col items-center pt-20 md:p-20">
+   <div className=" bg-gray-800 min-h-screen flex flex-col items-center pt-20 md:p-20">
       <header className="w-full max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start bg-white p-4 rounded-lg shadow-md">
         <img
           src={require('../Assets/photo.jpeg')}

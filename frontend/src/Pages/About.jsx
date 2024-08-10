@@ -1,11 +1,12 @@
 import React from 'react';
+import { FaInstagram, FaLinkedin, FaEnvelope, FaGithub, FaPhone } from 'react-icons/fa';
 
 const About = () => {
  
   return (
     
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md">
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <div className="w-full max-w-4xl bg-slate-200 p-6 rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-center mb-6">About Me</h1>
         <div className="text-center mb-6">
           <img
@@ -28,6 +29,28 @@ const About = () => {
             to a dynamic tech team while continuously expanding skill sets in a professional setting..
             </p>
           </div>
+          <h3 className="text-xl font-bold mb-2">💻 Technical Skills:</h3>
+Languages: JavaScript, Java , python
+<br></br>
+Web Development: HTML, CSS, React, Node.js, Express.js , Tailwind , Springboot , 
+<br></br>
+Databases: MySQL, MongoDB
+<br></br>
+Version Control: Git & GitHub
+<br></br>
+Tools: VS Code, Postman, Docker,Sublimetext
+<br></br>
+<h3 className="text-xl font-bold mb-2"> Currently Learning</h3>
+
+DevOps practices and cloud technologies (AWS, Azure)
+<br></br>
+Advanced backend development with Node.js and Express
+<br></br>
+
+<h3 className="text-xl font-bold mb-2">🎯 Goals:</h3>
+
+Continuously improve my coding skills and contribute to open-source projects.
+Collaborate on challenging projects that solve real-world problems.
           <h3 className="text-xl font-bold mb-2">Experience</h3>
           <p>I completed a two-month internship focused on the MERN stack, where 
             I developed full-stack web applications, gaining hands-on experience with MongoDB, Express.js, 
@@ -46,6 +69,49 @@ const About = () => {
                 <h2>I have played U19 cricket for board</h2>
             </p>
           </div>
+          <div className="flex justify-between">
+          <a 
+            href="https://www.instagram.com/mr__thakurshab?igsh=NzNiNXRld3p6Zjlp" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-gray-400" 
+            aria-label="Instagram"
+          >
+            <FaInstagram size={24} />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/himanshu-thakur-8754a418a" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-gray-400" 
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={24} />
+          </a>
+          <a 
+            href="mailto:himanshussthakur2002@gmail.com" 
+            className="hover:text-gray-400" 
+            aria-label="Email"
+          >
+            <FaEnvelope size={24} />
+          </a>
+          <a 
+            href="https://github.com/hsthakur21" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-gray-400" 
+            aria-label="GitHub"
+          >
+            <FaGithub size={24} />
+          </a>
+          <a 
+            href="tel:9548868770" 
+            className="hover:text-gray-400" 
+            aria-label="Phone"
+          >
+            <FaPhone size={24} /> 
+          </a>
+        </div>
         </div>
       </div>
     </div>
